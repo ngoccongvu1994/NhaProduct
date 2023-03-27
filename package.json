@@ -17,7 +17,7 @@
     "prod": "npm run start:prod",
     "build": "npm run build:prod",
     "build:dev": "npm run build -- -c dev",
-    "build:prod": "node --max_old_space_size=8192 node_modules/@angular/cli/bin/ng build -c production --build-optimizer=true --aot=true --delete-output-path --base-href / --deploy-url / --output-path  --source-map=false",
+    "build:prod": "node --max_old_space_size=8192 node_modules/@angular/cli/bin/ng build -c production --build-optimizer=true --aot=true  --source-map=false",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "version": "conventional-changelog -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
